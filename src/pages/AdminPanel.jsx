@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-const API = axios.create({ baseURL: 'https://YOUR-VERCEL-URL.vercel.app/api' });
+const API = axios.create({ baseURL: 'https://shopitec-backend.vercel.app/api' });
 
 const statusStyle = s => ({
   success: { background:'#f0fdf4', color:'#16a34a', border:'1px solid #bbf7d0' },
