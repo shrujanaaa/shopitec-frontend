@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
-const API = axios.create({ baseURL: BASE_URL });
+const BASE_URL = process.env.REACT_APP_API_URL;
+const API = axios.create({ baseURL: 'https://shopitec-backend.vercel.app/api' });
+
 
 const statusStyle = s => ({
   success: { background:'#f0fdf4', color:'#16a34a', border:'1px solid #bbf7d0' },
